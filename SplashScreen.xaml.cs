@@ -11,8 +11,8 @@ namespace CanaryLauncherUpdate
 	{
 		static readonly HttpClient httpClient = new HttpClient();
 		DispatcherTimer timer = new DispatcherTimer();
-		string urlClient = "https://github.com/lucasgiovannibr/clientlauncherupdate/archive/refs/heads/main.zip";
-		string urlVersion = "https://raw.githubusercontent.com/lucasgiovannibr/clientlauncherupdate/main/version.txt";
+		string urlClient = "http://www.midnight-global.com/downloads/client.zip";
+		string urlVersion = "http://www.midnight-global.com/version.txt";
 		string currentVersion = "";
 		string path = AppDomain.CurrentDomain.BaseDirectory.ToString();
 
